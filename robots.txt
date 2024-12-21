@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://chung142003.github.io/laptrinhmang/sitemap.xml
