@@ -60,7 +60,7 @@
         <updated>2024-12-21T21:48:32+07:00</updated>
             <summary>
                 <![CDATA[
-                    Full-stack Development: Kết hợp Java (Backend) và JavaScript (Frontend) Trong thời đại số hóa, việc xây dựng các ứng dụng web ngày càng trở nên quan trọng. Trong bài viết này, chúng ta sẽ khám phá cách kết hợp Java ở backend và JavaScript ở&hellip;
+                    Full-stack Development: Kết hợp Java (Backend) và JavaScript (Frontend) Trong thời đại&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -303,7 +303,7 @@ public class CorsConfig {
         <updated>2024-12-21T21:48:20+07:00</updated>
             <summary>
                 <![CDATA[
-                    Tiêu đề: "Viết chương trình Hello World bằng Java và JavaScript" Nội dung: Hướng dẫn cách viết một chương trình "Hello World" trong Java (sử dụng console hoặc GUI). Tạo một ứng dụng web đơn giản sử dụng JavaScript để hiển thị "Hello World" trên&hellip;
+                    Tiêu đề: "Viết chương trình Hello World bằng Java và JavaScript" Nội&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -334,7 +334,7 @@ public class CorsConfig {
         <updated>2024-12-21T21:47:03+07:00</updated>
             <summary>
                 <![CDATA[
-                    Tiêu đề: "So sánh cú pháp cơ bản giữa Java và JavaScript" Nội dung: Biến và kiểu dữ liệu trong Java và JavaScript. Các câu lệnh điều kiện (if, switch) và vòng lặp (for, while). Cách định nghĩa và sử dụng hàm trong cả hai&hellip;
+                    Tiêu đề: "So sánh cú pháp cơ bản giữa Java và JavaScript"&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -365,7 +365,7 @@ public class CorsConfig {
         <updated>2024-12-21T21:46:46+07:00</updated>
             <summary>
                 <![CDATA[
-                    Tiêu đề: "Java và JavaScript: Hai ngôn ngữ, một tên gọi, có gì khác biệt?" Nội dung: Giới thiệu tổng quan về Java và JavaScript. Phân biệt điểm khác nhau giữa hai ngôn ngữ: mục đích sử dụng, cách hoạt động (backend vs frontend), môi&hellip;
+                    Tiêu đề: "Java và JavaScript: Hai ngôn ngữ, một tên gọi, có&hellip;
                 ]]>
             </summary>
         <content type="html">
