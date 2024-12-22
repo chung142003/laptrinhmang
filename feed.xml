@@ -3,12 +3,52 @@
     <title>Java &amp; JavaScript hub</title>
     <link href="https://chung142003.github.io/laptrinhmang/feed.xml" rel="self" />
     <link href="https://chung142003.github.io/laptrinhmang" />
-    <updated>2024-12-21T21:49:13+07:00</updated>
+    <updated>2024-12-22T21:28:29+07:00</updated>
     <author>
         <name>đức chung ( chung choáy )</name>
     </author>
     <id>https://chung142003.github.io/laptrinhmang</id>
 
+    <entry>
+        <title>cách trở nên đặc biệt để kiếm việc làm</title>
+        <author>
+            <name>code hay ngủ</name>
+        </author>
+        <link href="https://chung142003.github.io/laptrinhmang/cach-tro-nen-dac-biet-de-kiem-viec-lam.html"/>
+        <id>https://chung142003.github.io/laptrinhmang/cach-tro-nen-dac-biet-de-kiem-viec-lam.html</id>
+
+        <updated>2024-12-22T21:28:29+07:00</updated>
+            <summary>
+                <![CDATA[
+                    ngủ tiếp
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>ngủ tiếp</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>cách trở thành một coder java giỏi</title>
+        <author>
+            <name>đức chung ( chung choáy )</name>
+        </author>
+        <link href="https://chung142003.github.io/laptrinhmang/cach-tro-thanh-mot-coder-java-gioi.html"/>
+        <id>https://chung142003.github.io/laptrinhmang/cach-tro-thanh-mot-coder-java-gioi.html</id>
+
+        <updated>2024-12-22T21:27:31+07:00</updated>
+            <summary>
+                <![CDATA[
+                    ngủ
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>ngủ</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Full-stack Development: Kết hợp Java (Backend) và JavaScript (Frontend)</title>
         <author>

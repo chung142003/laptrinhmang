@@ -11,6 +11,34 @@
     },
     "items": [
         {
+            "id": "https://chung142003.github.io/laptrinhmang/cach-tro-nen-dac-biet-de-kiem-viec-lam.html",
+            "url": "https://chung142003.github.io/laptrinhmang/cach-tro-nen-dac-biet-de-kiem-viec-lam.html",
+            "title": "cách trở nên đặc biệt để kiếm việc làm",
+            "summary": "ngủ tiếp",
+            "content_html": "<p>ngủ tiếp</p>",
+            "author": {
+                "name": "code hay ngủ"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-12-22T21:28:29+07:00",
+            "date_modified": "2024-12-22T21:28:29+07:00"
+        },
+        {
+            "id": "https://chung142003.github.io/laptrinhmang/cach-tro-thanh-mot-coder-java-gioi.html",
+            "url": "https://chung142003.github.io/laptrinhmang/cach-tro-thanh-mot-coder-java-gioi.html",
+            "title": "cách trở thành một coder java giỏi",
+            "summary": "ngủ",
+            "content_html": "<p>ngủ</p>",
+            "author": {
+                "name": "đức chung ( chung choáy )"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-12-22T21:27:31+07:00",
+            "date_modified": "2024-12-22T21:27:31+07:00"
+        },
+        {
             "id": "https://chung142003.github.io/laptrinhmang/full-stack-development-ket-hop-java-backend-va-javascript-frontend.html",
             "url": "https://chung142003.github.io/laptrinhmang/full-stack-development-ket-hop-java-backend-va-javascript-frontend.html",
             "title": "Full-stack Development: Kết hợp Java (Backend) và JavaScript (Frontend)",
