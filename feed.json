@@ -11,6 +11,21 @@
     },
     "items": [
         {
+            "id": "https://chung142003.github.io/laptrinhmang/test-1.html",
+            "url": "https://chung142003.github.io/laptrinhmang/test-1.html",
+            "title": "test 1",
+            "summary": "dadwadwadawdwadadadadwadwadwadwa",
+            "content_html": "<p>dadwadwadawdwadadadadwadwadwadwa</p>",
+            "image": "https://chung142003.github.io/laptrinhmang/media/posts/7/2023-09-12-3.png",
+            "author": {
+                "name": "code hay ngủ"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-12-23T15:01:27+07:00",
+            "date_modified": "2024-12-23T15:01:27+07:00"
+        },
+        {
             "id": "https://chung142003.github.io/laptrinhmang/cach-tro-nen-dac-biet-de-kiem-viec-lam.html",
             "url": "https://chung142003.github.io/laptrinhmang/cach-tro-nen-dac-biet-de-kiem-viec-lam.html",
             "title": "cách trở nên đặc biệt để kiếm việc làm",

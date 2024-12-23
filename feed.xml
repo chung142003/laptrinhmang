@@ -3,12 +3,35 @@
     <title>Java &amp; JavaScript hub</title>
     <link href="https://chung142003.github.io/laptrinhmang/feed.xml" rel="self" />
     <link href="https://chung142003.github.io/laptrinhmang" />
-    <updated>2024-12-22T21:28:29+07:00</updated>
+    <updated>2024-12-23T15:01:27+07:00</updated>
     <author>
         <name>đức chung ( chung choáy )</name>
     </author>
     <id>https://chung142003.github.io/laptrinhmang</id>
 
+    <entry>
+        <title>test 1</title>
+        <author>
+            <name>code hay ngủ</name>
+        </author>
+        <link href="https://chung142003.github.io/laptrinhmang/test-1.html"/>
+        <id>https://chung142003.github.io/laptrinhmang/test-1.html</id>
+        <media:content url="https://chung142003.github.io/laptrinhmang/media/posts/7/2023-09-12-3.png" medium="image" />
+
+        <updated>2024-12-23T15:01:27+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://chung142003.github.io/laptrinhmang/media/posts/7/2023-09-12-3.png" alt="" />
+                    dadwadwadawdwadadadadwadwadwadwa
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chung142003.github.io/laptrinhmang/media/posts/7/2023-09-12-3.png" class="type:primaryImage" alt="" /></p>
+                <p>dadwadwadawdwadadadadwadwadwadwa</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>cách trở nên đặc biệt để kiếm việc làm</title>
         <author>
