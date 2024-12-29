@@ -11,6 +11,19 @@
     },
     "items": [
         {
+            "id": "https://chung142003.github.io/laptrinhmang/about-me.html",
+            "url": "https://chung142003.github.io/laptrinhmang/about-me.html",
+            "title": "About me",
+            "author": {
+                "name": "đức chung ( chung choáy )"
+            },
+            "tags": [
+                   "Profile"
+            ],
+            "date_published": "2024-12-29T21:46:05+07:00",
+            "date_modified": "2024-12-29T21:46:05+07:00"
+        },
+        {
             "id": "https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html",
             "url": "https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html",
             "title": "Điều gì có thể khiến mã Java chạy nhanh hơn rồi chậm hơn?",
@@ -153,22 +166,6 @@
             ],
             "date_published": "2024-12-26T21:54:02+07:00",
             "date_modified": "2024-12-29T19:28:54+07:00"
-        },
-        {
-            "id": "https://chung142003.github.io/laptrinhmang/cha-de-java-nhung-bi-hr-danh-rot-tu-vong-gui-xe-khi-thu-xin-viec-java.html",
-            "url": "https://chung142003.github.io/laptrinhmang/cha-de-java-nhung-bi-hr-danh-rot-tu-vong-gui-xe-khi-thu-xin-viec-java.html",
-            "title": "&quot;Cha đẻ&quot; Java nhưng bị HR đánh rớt từ vòng gửi xe khi thử xin việc Java",
-            "summary": "Câu chuyện dở khóc, dở cười này được chính ông chia sẻ&hellip;",
-            "content_html": "<p>Câu chuyện dở khóc, dở cười này được chính ông chia sẻ trong một bài đăng trên facebook vào vài năm trước khi ông thử apply vào vị trí lập trình viên Java của một công ty công nghệ. Ban đầu HR từ chối nhưng rồi biết ông là \"cha đẻ\" của Java nên duyệt vội. Lúc phỏng vấn, HR nói rằng: “Thông thường chúng tôi không tuyển dụng lập trình viên ở độ tuổi của bạn, nhưng hoàn cảnh của bạn rất đặc biệt (vì ông ấy là cha đẻ của Java) nên bạn sẽ được quan tâm đặc biệt” =)))</p>",
-            "image": "https://chung142003.github.io/laptrinhmang/media/posts/14/414691887_345764308174554_3901360410248872296_n.jpg",
-            "author": {
-                "name": "code hay ngủ"
-            },
-            "tags": [
-                   "Fun Fact"
-            ],
-            "date_published": "2024-12-26T21:53:24+07:00",
-            "date_modified": "2024-12-29T14:19:43+07:00"
         }
     ]
 }
