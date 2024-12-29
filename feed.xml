@@ -3,31 +3,12 @@
     <title>Java &amp; JavaScript hub</title>
     <link href="https://chung142003.github.io/laptrinhmang/feed.xml" rel="self" />
     <link href="https://chung142003.github.io/laptrinhmang" />
-    <updated>2024-12-29T22:06:19+07:00</updated>
+    <updated>2024-12-29T22:10:50+07:00</updated>
     <author>
         <name>đức chung ( chung choáy )</name>
     </author>
     <id>https://chung142003.github.io/laptrinhmang</id>
 
-    <entry>
-        <title>About me</title>
-        <author>
-            <name>đức chung ( chung choáy )</name>
-        </author>
-        <link href="https://chung142003.github.io/laptrinhmang/about-me.html"/>
-        <id>https://chung142003.github.io/laptrinhmang/about-me.html</id>
-        <media:content url="https://chung142003.github.io/laptrinhmang/media/posts/24/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" medium="image" />
-            <category term="Profile"/>
-
-        <updated>2024-12-29T21:46:05+07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://chung142003.github.io/laptrinhmang/media/posts/24/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://chung142003.github.io/laptrinhmang/media/posts/24/Screenshot-2024-12-29-220432.png" alt="" width="1122" height="639" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-xs.png 320w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-sm.png 480w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-md.png 768w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-xl.png 1024w"></figure>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Điều gì có thể khiến mã Java chạy nhanh hơn rồi chậm hơn?</title>
         <author>
@@ -2581,6 +2562,30 @@ console.log(getDerivedState()); // Nhật ký: [3, 6, 9]
 <div class="html-div xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd" tabindex="-1">
 <div class="html-div xdj266r x11i5rnm x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1e56ztr"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u">Credit: Khoa Nguyen<br class="html-br">Cre: Low code to No code VN (Power APP, AppSheet...)</span></div>
 </div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>&quot;Cha đẻ&quot; Java nhưng bị HR đánh rớt từ vòng gửi xe khi thử xin việc Java</title>
+        <author>
+            <name>code hay ngủ</name>
+        </author>
+        <link href="https://chung142003.github.io/laptrinhmang/cha-de-java-nhung-bi-hr-danh-rot-tu-vong-gui-xe-khi-thu-xin-viec-java.html"/>
+        <id>https://chung142003.github.io/laptrinhmang/cha-de-java-nhung-bi-hr-danh-rot-tu-vong-gui-xe-khi-thu-xin-viec-java.html</id>
+        <media:content url="https://chung142003.github.io/laptrinhmang/media/posts/14/414691887_345764308174554_3901360410248872296_n.jpg" medium="image" />
+            <category term="Fun Fact"/>
+
+        <updated>2024-12-26T21:53:24+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://chung142003.github.io/laptrinhmang/media/posts/14/414691887_345764308174554_3901360410248872296_n.jpg" alt="" />
+                    Câu chuyện dở khóc, dở cười này được chính ông chia sẻ&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chung142003.github.io/laptrinhmang/media/posts/14/414691887_345764308174554_3901360410248872296_n.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Câu chuyện dở khóc, dở cười này được chính ông chia sẻ trong một bài đăng trên facebook vào vài năm trước khi ông thử apply vào vị trí lập trình viên Java của một công ty công nghệ. Ban đầu HR từ chối nhưng rồi biết ông là "cha đẻ" của Java nên duyệt vội. Lúc phỏng vấn, HR nói rằng: “Thông thường chúng tôi không tuyển dụng lập trình viên ở độ tuổi của bạn, nhưng hoàn cảnh của bạn rất đặc biệt (vì ông ấy là cha đẻ của Java) nên bạn sẽ được quan tâm đặc biệt” =)))</p>
             ]]>
         </content>
     </entry>

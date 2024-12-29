@@ -11,21 +11,6 @@
     },
     "items": [
         {
-            "id": "https://chung142003.github.io/laptrinhmang/about-me.html",
-            "url": "https://chung142003.github.io/laptrinhmang/about-me.html",
-            "title": "About me",
-            "content_html": "<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://chung142003.github.io/laptrinhmang/media/posts/24/Screenshot-2024-12-29-220432.png\" alt=\"\" width=\"1122\" height=\"639\" sizes=\"(min-width: 760px) 660px, calc(93.18vw - 30px)\" srcset=\"https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-xs.png 320w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-sm.png 480w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-md.png 768w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-xl.png 1024w\"></figure>",
-            "image": "https://chung142003.github.io/laptrinhmang/media/posts/24/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg",
-            "author": {
-                "name": "đức chung ( chung choáy )"
-            },
-            "tags": [
-                   "Profile"
-            ],
-            "date_published": "2024-12-29T21:46:05+07:00",
-            "date_modified": "2024-12-29T22:06:19+07:00"
-        },
-        {
             "id": "https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html",
             "url": "https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html",
             "title": "Điều gì có thể khiến mã Java chạy nhanh hơn rồi chậm hơn?",
@@ -39,7 +24,7 @@
                    "Java"
             ],
             "date_published": "2024-12-26T22:40:46+07:00",
-            "date_modified": "2024-12-29T14:58:04+07:00"
+            "date_modified": "2024-12-29T22:10:50+07:00"
         },
         {
             "id": "https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html",
@@ -168,6 +153,22 @@
             ],
             "date_published": "2024-12-26T21:54:02+07:00",
             "date_modified": "2024-12-29T19:28:54+07:00"
+        },
+        {
+            "id": "https://chung142003.github.io/laptrinhmang/cha-de-java-nhung-bi-hr-danh-rot-tu-vong-gui-xe-khi-thu-xin-viec-java.html",
+            "url": "https://chung142003.github.io/laptrinhmang/cha-de-java-nhung-bi-hr-danh-rot-tu-vong-gui-xe-khi-thu-xin-viec-java.html",
+            "title": "&quot;Cha đẻ&quot; Java nhưng bị HR đánh rớt từ vòng gửi xe khi thử xin việc Java",
+            "summary": "Câu chuyện dở khóc, dở cười này được chính ông chia sẻ&hellip;",
+            "content_html": "<p>Câu chuyện dở khóc, dở cười này được chính ông chia sẻ trong một bài đăng trên facebook vào vài năm trước khi ông thử apply vào vị trí lập trình viên Java của một công ty công nghệ. Ban đầu HR từ chối nhưng rồi biết ông là \"cha đẻ\" của Java nên duyệt vội. Lúc phỏng vấn, HR nói rằng: “Thông thường chúng tôi không tuyển dụng lập trình viên ở độ tuổi của bạn, nhưng hoàn cảnh của bạn rất đặc biệt (vì ông ấy là cha đẻ của Java) nên bạn sẽ được quan tâm đặc biệt” =)))</p>",
+            "image": "https://chung142003.github.io/laptrinhmang/media/posts/14/414691887_345764308174554_3901360410248872296_n.jpg",
+            "author": {
+                "name": "code hay ngủ"
+            },
+            "tags": [
+                   "Fun Fact"
+            ],
+            "date_published": "2024-12-26T21:53:24+07:00",
+            "date_modified": "2024-12-29T14:19:43+07:00"
         }
     ]
 }
