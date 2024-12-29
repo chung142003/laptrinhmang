@@ -3,7 +3,7 @@
     <title>Java &amp; JavaScript hub</title>
     <link href="https://chung142003.github.io/laptrinhmang/feed.xml" rel="self" />
     <link href="https://chung142003.github.io/laptrinhmang" />
-    <updated>2024-12-29T14:19:43+07:00</updated>
+    <updated>2024-12-29T14:59:07+07:00</updated>
     <author>
         <name>đức chung ( chung choáy )</name>
     </author>
@@ -16,16 +16,19 @@
         </author>
         <link href="https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html"/>
         <id>https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html</id>
+        <media:content url="https://chung142003.github.io/laptrinhmang/media/posts/23/javafster.jpg" medium="image" />
             <category term="Java"/>
 
         <updated>2024-12-26T22:40:46+07:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://chung142003.github.io/laptrinhmang/media/posts/23/javafster.jpg" alt="" />
                     Người ta đều biết rằng JVM tối ưu hóa mã trong quá&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://chung142003.github.io/laptrinhmang/media/posts/23/javafster.jpg" class="type:primaryImage" alt="" /></p>
                 <p>Người ta đều biết rằng JVM tối ưu hóa mã trong quá trình thực thi, dẫn đến hiệu suất nhanh hơn theo thời gian. Tuy nhiên, ít người hiểu được cách các hoạt động được thực hiện <em>trước</em> một phần mã có thể ảnh hưởng tiêu cực đến tốc độ thực thi của nó. Trong bài đăng này, tôi sẽ sử dụng các ví dụ thực tế để khám phá cách làm nóng và làm mát mã ảnh hưởng đến hiệu suất.</p>
 <p>Mã <a href="https://github.com/Vanilla-Java/Blog/blob/main/performance-optimizations/src/main/java/blog/vanillajava/coldcode/FastAndSlowMain.java">có sẵn ở đây</a> để bạn chạy</p>
 <h2>Mã khởi động</h2>
@@ -117,16 +120,19 @@ public static void doTask() {
         </author>
         <link href="https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"/>
         <id>https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html</id>
+        <media:content url="https://chung142003.github.io/laptrinhmang/media/posts/22/copyjava.png" medium="image" />
             <category term="Java"/>
 
         <updated>2024-12-26T22:39:34+07:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://chung142003.github.io/laptrinhmang/media/posts/22/copyjava.png" alt="" />
                     Tóm lại Vấn đề: Việc tuần tự hóa chuẩn của Java có thể&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://chung142003.github.io/laptrinhmang/media/posts/22/copyjava.png" class="type:primaryImage" alt="" /></p>
                 <div class="sidebarblock" role="info">
 <div class="title">Tóm lại</div>
 <div class="content">

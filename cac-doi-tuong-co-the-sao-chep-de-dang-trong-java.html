@@ -1,6 +1,196 @@
-<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Các đối tượng có thể sao chép dễ dàng trong Java - Java &amp; JavaScript hub</title><meta name="description" content="Tóm lại Vấn đề: Việc tuần tự hóa chuẩn của Java có thể&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><meta name="theme-color" content="#17181E" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#D73A42" media="(prefers-color-scheme: light)"><meta name="msapplication-navbutton-color" content="#D73A42"><meta name="apple-mobile-web-app-status-bar-style" content="#D73A42"><link rel="canonical" href="https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"><link rel="alternate" type="application/atom+xml" href="https://chung142003.github.io/laptrinhmang/feed.xml"><link rel="alternate" type="application/json" href="https://chung142003.github.io/laptrinhmang/feed.json"><meta property="og:title" content="Các đối tượng có thể sao chép dễ dàng trong Java"><meta property="og:image" content="https://chung142003.github.io/laptrinhmang/media/website/manhinhkhoa.jpg"><meta property="og:image:width" content="735"><meta property="og:image:height" content="413"><meta property="og:site_name" content="Java & JavaScript hub"><meta property="og:description" content="Tóm lại Vấn đề: Việc tuần tự hóa chuẩn của Java có thể&hellip;"><meta property="og:url" content="https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"><meta property="og:type" content="article"><link rel="shortcut icon" href="https://chung142003.github.io/laptrinhmang/media/website/2.jpg" type="image/x-icon"><link rel="preload" href="https://chung142003.github.io/laptrinhmang/assets/dynamic/fonts/publicsans/publicsans.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://chung142003.github.io/laptrinhmang/assets/css/style.css?v=d89a6ca52b9ab366d88c90ce5d4179da"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"},"headline":"Các đối tượng có thể sao chép dễ dàng trong Java","datePublished":"2024-12-26T22:39+07:00","dateModified":"2024-12-29T14:17+07:00","image":{"@type":"ImageObject","url":"https://chung142003.github.io/laptrinhmang/media/website/christmas-star.png","height":512,"width":512},"description":"Tóm lại Vấn đề: Việc tuần tự hóa chuẩn của Java có thể&hellip;","author":{"@type":"Person","name":"đức chung ( chung choáy )","url":"https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/"},"publisher":{"@type":"Organization","name":"đức chung ( chung choáy )","logo":{"@type":"ImageObject","url":"https://chung142003.github.io/laptrinhmang/media/website/christmas-star.png","height":512,"width":512}}}</script><noscript><style>img[loading] {
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Các đối tượng có thể sao chép dễ dàng trong Java - Java &amp; JavaScript hub </title>
+        <meta name="description" content="Tóm lại Vấn đề: Việc tuần tự hóa chuẩn của Java có thể&hellip;" />
+        
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+
+			<meta name="theme-color" content="#17181E"  media="(prefers-color-scheme: dark)">
+	    	<meta name="theme-color" content="#D73A42" media="(prefers-color-scheme: light)">
+	    	<meta name="msapplication-navbutton-color" content="#D73A42">
+	    	<meta name="apple-mobile-web-app-status-bar-style" content="#D73A42">
+    	
+        <link rel="canonical" href="https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html">
+        <link rel="alternate" type="application/atom+xml" href="https://chung142003.github.io/laptrinhmang/feed.xml" />
+<link rel="alternate" type="application/json" href="https://chung142003.github.io/laptrinhmang/feed.json" />
+
+        <meta property="og:title" content="Các đối tượng có thể sao chép dễ dàng trong Java" /><meta property="og:image" content="https://chung142003.github.io/laptrinhmang/media/posts/22/copyjava.png"/><meta property="og:image:width" content="259" /><meta property="og:image:height" content="194" /><meta property="og:site_name" content="Java & JavaScript hub" /><meta property="og:description" content="Tóm lại Vấn đề: Việc tuần tự hóa chuẩn của Java có thể&hellip;" /><meta property="og:url" content="https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html" /><meta property="og:type" content="article" />
+	        <link rel="shortcut icon" href="https://chung142003.github.io/laptrinhmang/media/website/2.jpg" type="image/x-icon" />
+           <link rel="preload" href="https://chung142003.github.io/laptrinhmang/assets/dynamic/fonts/publicsans/publicsans.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="https://chung142003.github.io/laptrinhmang/assets/css/style.css?v=d89a6ca52b9ab366d88c90ce5d4179da">
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"},"headline":"Các đối tượng có thể sao chép dễ dàng trong Java","datePublished":"2024-12-26T22:39+07:00","dateModified":"2024-12-29T14:59+07:00","image":{"@type":"ImageObject","url":"https://chung142003.github.io/laptrinhmang/media/posts/22/copyjava.png","height":194,"width":259},"description":"Tóm lại Vấn đề: Việc tuần tự hóa chuẩn của Java có thể&hellip;","author":{"@type":"Person","name":"đức chung ( chung choáy )","url":"https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/"},"publisher":{"@type":"Organization","name":"đức chung ( chung choáy )","logo":{"@type":"ImageObject","url":"https://chung142003.github.io/laptrinhmang/media/website/christmas-star.png","height":512,"width":512}}}</script>      
+        <noscript>
+            <style>
+                img[loading] {
                     opacity: 1;
-                }</style></noscript><link rel="stylesheet" href="https://chung142003.github.io/laptrinhmang/media/plugins/docSearch/docsearch.min.css"></head><body class="post-template"><div class="container"><div class="left-bar"><div class="left-bar__inner"><header class="header"><a class="logo" href="https://chung142003.github.io/laptrinhmang/"><img src="https://chung142003.github.io/laptrinhmang/media/website/christmas-star.png" alt="Java &amp; JavaScript hub" width="512" height="512"></a><nav class="navbar"><button class="navbar__toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle__box"><span class="navbar__toggle__inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://chung142003.github.io/laptrinhmang/" target="_self" aria-label="Home"><span>Home</span></a></li><li><a href="https://chung142003.github.io/laptrinhmang/" target="_self" aria-label="Profile Author"><span>Profile Author</span></a></li><li><a href="https://chung142003.github.io/laptrinhmang/tags/" target="_self" aria-label="Tags page"><span>Tags page</span></a></li></ul></nav><a class="logo logo--atbottom" href="https://chung142003.github.io/laptrinhmang/"><img src="https://chung142003.github.io/laptrinhmang/media/website/christmas-star.png" alt="Java &amp; JavaScript hub" width="512" height="512"></a></header></div></div><main class="main post"><article class="content content--attop"><header class="hero content__header"><div class="main__inner"><h1>Các đối tượng có thể sao chép dễ dàng trong Java</h1></div></header><div class="content__meta content__meta--attop"><div class="content__meta--attop__inner"><div class="content__maintag"><svg width="20" height="20" aria-hidden="true" focusable="false"><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#tag"/></svg> Published in <a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="metadata__maintag">Java</a></div><div class="content__date"><svg width="20" height="20" aria-hidden="true" focusable="false"><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#date"/></svg> <time datetime="2024-12-26T22:39">Thg 12 26, 2024</time></div></div></div><div class="main__inner"><div class="content__meta"><div class="content__author"><img src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" loading="lazy" height="725" width="736" alt="đức chung ( chung choáy )" class="content__author__avatar"><div><a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/" class="content__author__name">đức chung ( chung choáy )</a></div></div></div><div class="content__entry"><div class="sidebarblock" role="info"><div class="title">Tóm lại</div><div class="content"><ul><li><strong>Vấn đề:</strong> Việc tuần tự hóa chuẩn của Java có thể chậm do các trường đối tượng phân tán và chi phí dựa trên phản xạ.</li><li><strong>Cách tiếp cận:</strong> Mô phỏng các đối tượng có thể sao chép dễ dàng theo phong cách C++ bằng cách hạn chế các trường thành các nguyên hàm, cho phép sao chép bộ nhớ lớn.</li><li><strong>Kết quả:</strong> Hiệu suất tuần tự hóa gần giống C++, giảm đáng kể độ trễ và cải thiện thông lượng.</li><li><strong>Nhược điểm:</strong> Cần thiết kế cẩn thận, tính linh hoạt hạn chế và phải kiểm tra khả năng tương thích với JVM.</li><li><strong>Kết quả:</strong> Hệ thống có độ trễ thấp với hiệu suất cao, phù hợp với nguồn cấp dữ liệu tài chính, phân tích thời gian thực và các lĩnh vực nhạy cảm với độ trễ khác.</li></ul></div></div><h2>Giới thiệu</h2><p>Đối với các hệ thống có độ trễ thấp, mỗi micro giây đều có tác động kinh doanh hữu hình. Trong giao dịch tần suất cao, phân tích thời gian thực và khối lượng công việc nhạy cảm với thời gian tương tự, ngay cả những điểm kém hiệu quả nhỏ trong tuần tự hóa và hủy tuần tự hóa cũng có thể làm giảm thông lượng và khả năng phản hồi. Hành động có vẻ tầm thường là chuyển đổi các đối tượng thành byte và ngược lại thường trở thành nút thắt cổ chai về hiệu suất.</p><p>Bài viết này khám phá cách chúng ta có thể mô phỏng khái niệm giống C++ về <em>Đối tượng có thể sao chép đơn giản</em> trong Java để đạt được tuần tự hóa hiệu quả hơn nhiều. Bằng cách đảm bảo các đối tượng chỉ chứa các nguyên mẫu có kích thước cố định, chúng ta có thể tránh được các chi phí truyền thống của việc duyệt đồ thị đối tượng, phản xạ và sao chép từng trường. Thay vào đó, chúng ta có thể xử lý chúng như các khối bộ nhớ liền kề, giảm đáng kể thời gian đọc và ghi dữ liệu. Chúng ta cũng sẽ xem xét cách đạt được hiệu suất rất gần với hiệu suất này bằng cách sử dụng Chronicle Bytes mà không yêu cầu nghiêm ngặt khả năng sao chép đơn giản. Kỹ thuật này kết hợp hiệu quả cấp thấp với sự an toàn và quen thuộc của hệ sinh thái Java.</p><h2>Thách thức cốt lõi của tuần tự hóa Java</h2><p>Hầu hết các biểu đồ đối tượng Java đều bao gồm các tham chiếu liên kết các phân bổ heap phân tán. Việc tuần tự hóa các đối tượng như vậy thường liên quan đến việc truy cập nhiều vị trí bộ nhớ, đọc từng trường riêng lẻ và ghi chúng ra từng trường một. Điều này giống như việc lục tung một nhà kho để tìm các mặt hàng riêng lẻ bất cứ khi nào bạn cần đóng gói một hộp. Mặc dù điều này có thể ổn ở tốc độ dữ liệu vừa phải, nhưng nó không mở rộng tốt khi khối lượng và tần suất của các tin nhắn tăng vọt.</p><p>Trong các lĩnh vực quan trọng về độ trễ—chẳng hạn như giao dịch thuật toán, xử lý số liệu từ xa hoặc nhắn tin thông lượng cao—chi phí này rất tốn kém. Giảm thiểu thời gian chuyển đổi dữ liệu từ các đối tượng trong bộ nhớ sang định dạng nhị phân và ngược lại có thể tạo ra sự khác biệt giữa việc đáp ứng thỏa thuận mức dịch vụ (SLA) và bỏ lỡ nó. Mục tiêu: giảm chi phí tuần tự hóa xuống mức gần bằng một <code>memcpy</code>hoạt động duy nhất.</p><h2>Mô phỏng các đối tượng có thể sao chép dễ dàng trong Java</h2><p>C++ định nghĩa một <em>Đối tượng có thể sao chép đơn giản</em> là đối tượng có thể được sao chép an toàn bằng cách sao chép trực tiếp biểu diễn bộ nhớ của nó (ví dụ: sử dụng <code>memcpy</code>). Điều này đảm bảo bố cục bộ nhớ hiệu quả và có thể dự đoán được. Java không trình bày trực tiếp khái niệm này, nhưng chúng ta có thể đạt được kết quả tương tự.</p><p>Nếu một đối tượng chỉ bao gồm các trường nguyên thủy— <code>long</code>, <code>int</code>, <code>double</code>, v.v.—với các kích thước cố định đã biết, thì nó giống như một khối dữ liệu phẳng, liền kề. Điều này cho phép chúng ta thực hiện sao chép hàng loạt nội dung của nó cùng một lúc. Kết quả tương tự như cách C++ xử lý các kiểu có thể sao chép dễ dàng, nhưng bây giờ chúng ta đang ở trong môi trường an toàn, được thu gom rác của Java.</p><h2>Các bước để đạt được một bố cục liền kề</h2><ol><li><strong>Chỉ giới hạn ở dạng nguyên thủy:</strong> Tránh <code>String</code>, <code>List</code>, hoặc các trường tham chiếu khác. Thay vào đó, hãy lưu trữ các mã định danh, dấu thời gian và biểu diễn văn bản ngắn dưới dạng long nguyên thủy (sử dụng các bộ chuyển đổi như <code>@ShortText</code>hoặc <code>@NanoTime</code>) để duy trì bố cục có kích thước cố định.</li><li><strong>Sử dụng trường có kích thước cố định:</strong> Đảm bảo rằng tất cả các trường đều có kích thước có thể dự đoán được. Điều này không chỉ đơn giản hóa bản sao mà còn làm cho bố cục dữ liệu có thể dự đoán được.</li><li><strong>Leverage Chronicle Utilities:</strong> Chronicle Bytes cung cấp các phương thức như <code>unsafeReadObject()</code>và <code>unsafeWriteObject()</code>để thực hiện các hoạt động bộ nhớ lớn. Chúng bỏ qua chi phí phản xạ hoặc vòng lặp theo từng trường.</li></ol><p>Bằng cách cấu trúc các đối tượng theo cách này, bạn loại bỏ chi phí CPU của việc kiểm tra nhiều lần các offset và kiểu trường. Thay vào đó, bạn xử lý toàn bộ đối tượng như một bố cục byte đã biết có thể được thu thập hoặc ghi ra chỉ trong một lần.</p><p>Không phải mọi hệ thống đều có thể áp dụng đầy đủ các đối tượng có thể sao chép dễ dàng. Một số có thể cần các trường tham chiếu. Trong những trường hợp như vậy, bạn vẫn có thể cải thiện hiệu suất theo từng bước:</p><ul><li><strong>Phương pháp tuần tự hóa rõ ràng:</strong> Bằng cách triển khai các phương pháp tùy chỉnh <code>readMarshallable()</code>và <code>writeMarshallable()</code>phương pháp, bạn có thể tránh được chi phí phản xạ. Chỉ riêng điều này có thể giảm đáng kể độ trễ, như được thể hiện trong các điểm chuẩn bên dưới.</li><li><strong>Truy cập bộ nhớ trực tiếp:</strong> Để tăng độ phức tạp ở mức vừa phải, việc đọc và ghi rõ ràng các trường theo offset của chúng bằng Chronicle Bytes giúp giảm chi phí hơn nữa. Mặc dù cần nhiều nỗ lực hơn, nhưng cách tiếp cận này thu hẹp khoảng cách đến khả năng sao chép dễ dàng.</li><li><strong>Sao chép toàn bộ Trivial:</strong> Để có hiệu suất tốt nhất, hãy coi toàn bộ đối tượng như một khối bộ nhớ liền kề duy nhất. Sao chép hàng loạt ở đây là chìa khóa để đạt hiệu quả gần giống với kiểu C++.</li></ul><h2>Ví dụ về mã</h2><p>Hãy xem xét một <code>MarketData</code>DTO có nhiều trường. Một <code>SelfDescribingMarshallable</code>lớp đơn giản có thể dựa vào phản xạ hoặc các phương thức đọc/ghi rõ ràng:</p><pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">abstract</span> <span class="kwd">class</span> <span class="typ">MarketData</span> <span class="kwd">extends</span> <span class="typ">SelfDescribingMarshallable</span> <span class="pun">{</span>
+                }
+            </style>
+        </noscript>	    
+        <link rel="stylesheet" href="https://chung142003.github.io/laptrinhmang/media/plugins/docSearch/docsearch.min.css">
+    </head>
+    <body class="post-template">
+        
+        <div class="container">
+<div class="left-bar">
+   <div class="left-bar__inner">
+      <header class="header">
+         <a class="logo" href="https://chung142003.github.io/laptrinhmang/">
+               <img src="https://chung142003.github.io/laptrinhmang/media/website/christmas-star.png" alt="Java &amp; JavaScript hub" width="512" height="512">
+         </a>
+
+            <nav class="navbar"> 
+               <button
+                  class="navbar__toggle"
+                  aria-label="Menu"
+                  aria-haspopup="true"
+                  aria-expanded="false">
+                  <span class="navbar__toggle__box">
+                     <span class="navbar__toggle__inner">Menu</span>
+                  </span>
+               </button>
+               
+               <ul class="navbar__menu">
+                     <li  class="<i class="fa fa-home"></i>">
+                           <a
+                              href="https://chung142003.github.io/laptrinhmang/"
+                                    target="_self"
+                              aria-label="Home">
+                              
+                              <span>Home</span>
+                           </a>
+                     </li>
+                     <li >
+                           <a
+                              href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/code-hay-ngu/"
+                                    target="_self"
+                              aria-label="Profile Author 1">
+                              
+                              <span>Profile Author 1</span>
+                           </a>
+                     </li>
+                     <li >
+                           <a
+                              href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/"
+                                    target="_self"
+                              aria-label="Profile Author 2">
+                              
+                              <span>Profile Author 2</span>
+                           </a>
+                     </li>
+                     <li >
+                           <a
+                              href="https://chung142003.github.io/laptrinhmang/tags/"
+                                    target="_self"
+                              aria-label="Tags page">
+                              
+                              <span>Tags page</span>
+                           </a>
+                     </li>
+               </ul>
+            </nav>
+         <a class="logo logo--atbottom" href="https://chung142003.github.io/laptrinhmang/">
+               <img src="https://chung142003.github.io/laptrinhmang/media/website/christmas-star.png" alt="Java &amp; JavaScript hub" width="512" height="512">
+         </a>
+      </header>
+   </div>
+</div><main class="main post">
+      <article class="content content--attop">
+
+         <header class="hero content__header">
+            <div class="main__inner">
+               <h1>Các đối tượng có thể sao chép dễ dàng trong Java</h1>
+            </div>
+         </header>
+
+            <div class="content__meta content__meta--attop">
+               <div class="content__meta--attop__inner">
+                  <div class="content__maintag">
+                     <svg width="20" height="20" aria-hidden="true" focusable="false">
+                        <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#tag" />
+                     </svg>
+                     Published in <a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="metadata__maintag">Java</a>
+                  </div>
+
+               <div class="content__date">
+                  <svg width="20" height="20" aria-hidden="true" focusable="false">
+                     <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#date" />
+                  </svg>
+                  <time datetime="2024-12-26T22:39">
+                        Thg 12 26, 2024
+                  </time>
+               </div>
+               </div>
+            </div>
+
+         <div class="main__inner">
+
+               <div class="content__meta">                 
+                     <div class="content__author">
+                              <img
+                                 src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" 
+                                  loading="lazy"
+                                 height="725"
+                                 width="736" 
+                                 alt="đức chung ( chung choáy )" 
+                                 class="content__author__avatar">
+                           <div>
+                              <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/" class="content__author__name">đức chung ( chung choáy )</a>
+                           </div>
+                     </div>
+               </div>
+
+                  <figure class="content__featured-image">
+                     <img
+                        src="https://chung142003.github.io/laptrinhmang/media/posts/22/copyjava.png"
+                           srcset="https://chung142003.github.io/laptrinhmang/media/posts/22/responsive/copyjava-xs.png 320w ,https://chung142003.github.io/laptrinhmang/media/posts/22/responsive/copyjava-sm.png 480w ,https://chung142003.github.io/laptrinhmang/media/posts/22/responsive/copyjava-md.png 768w" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)"
+                         loading="eager"
+                        height="194"
+                        width="259"
+                        alt="">
+                  </figure>
+
+            <div class="content__entry">
+               <div class="sidebarblock" role="info">
+<div class="title">Tóm lại</div>
+<div class="content">
+<ul>
+<li><strong>Vấn đề:</strong> Việc tuần tự hóa chuẩn của Java có thể chậm do các trường đối tượng phân tán và chi phí dựa trên phản xạ.</li>
+<li><strong>Cách tiếp cận:</strong> Mô phỏng các đối tượng có thể sao chép dễ dàng theo phong cách C++ bằng cách hạn chế các trường thành các nguyên hàm, cho phép sao chép bộ nhớ lớn.</li>
+<li><strong>Kết quả:</strong> Hiệu suất tuần tự hóa gần giống C++, giảm đáng kể độ trễ và cải thiện thông lượng.</li>
+<li><strong>Nhược điểm:</strong> Cần thiết kế cẩn thận, tính linh hoạt hạn chế và phải kiểm tra khả năng tương thích với JVM.</li>
+<li><strong>Kết quả:</strong> Hệ thống có độ trễ thấp với hiệu suất cao, phù hợp với nguồn cấp dữ liệu tài chính, phân tích thời gian thực và các lĩnh vực nhạy cảm với độ trễ khác.</li>
+</ul>
+</div>
+</div>
+<h2>Giới thiệu</h2>
+<p>Đối với các hệ thống có độ trễ thấp, mỗi micro giây đều có tác động kinh doanh hữu hình. Trong giao dịch tần suất cao, phân tích thời gian thực và khối lượng công việc nhạy cảm với thời gian tương tự, ngay cả những điểm kém hiệu quả nhỏ trong tuần tự hóa và hủy tuần tự hóa cũng có thể làm giảm thông lượng và khả năng phản hồi. Hành động có vẻ tầm thường là chuyển đổi các đối tượng thành byte và ngược lại thường trở thành nút thắt cổ chai về hiệu suất.</p>
+<p>Bài viết này khám phá cách chúng ta có thể mô phỏng khái niệm giống C++ về <em>Đối tượng có thể sao chép đơn giản</em> trong Java để đạt được tuần tự hóa hiệu quả hơn nhiều. Bằng cách đảm bảo các đối tượng chỉ chứa các nguyên mẫu có kích thước cố định, chúng ta có thể tránh được các chi phí truyền thống của việc duyệt đồ thị đối tượng, phản xạ và sao chép từng trường. Thay vào đó, chúng ta có thể xử lý chúng như các khối bộ nhớ liền kề, giảm đáng kể thời gian đọc và ghi dữ liệu. Chúng ta cũng sẽ xem xét cách đạt được hiệu suất rất gần với hiệu suất này bằng cách sử dụng Chronicle Bytes mà không yêu cầu nghiêm ngặt khả năng sao chép đơn giản. Kỹ thuật này kết hợp hiệu quả cấp thấp với sự an toàn và quen thuộc của hệ sinh thái Java.</p>
+<h2>Thách thức cốt lõi của tuần tự hóa Java</h2>
+<p>Hầu hết các biểu đồ đối tượng Java đều bao gồm các tham chiếu liên kết các phân bổ heap phân tán. Việc tuần tự hóa các đối tượng như vậy thường liên quan đến việc truy cập nhiều vị trí bộ nhớ, đọc từng trường riêng lẻ và ghi chúng ra từng trường một. Điều này giống như việc lục tung một nhà kho để tìm các mặt hàng riêng lẻ bất cứ khi nào bạn cần đóng gói một hộp. Mặc dù điều này có thể ổn ở tốc độ dữ liệu vừa phải, nhưng nó không mở rộng tốt khi khối lượng và tần suất của các tin nhắn tăng vọt.</p>
+<p>Trong các lĩnh vực quan trọng về độ trễ—chẳng hạn như giao dịch thuật toán, xử lý số liệu từ xa hoặc nhắn tin thông lượng cao—chi phí này rất tốn kém. Giảm thiểu thời gian chuyển đổi dữ liệu từ các đối tượng trong bộ nhớ sang định dạng nhị phân và ngược lại có thể tạo ra sự khác biệt giữa việc đáp ứng thỏa thuận mức dịch vụ (SLA) và bỏ lỡ nó. Mục tiêu: giảm chi phí tuần tự hóa xuống mức gần bằng một <code>memcpy</code>hoạt động duy nhất.</p>
+<h2>Mô phỏng các đối tượng có thể sao chép dễ dàng trong Java</h2>
+<p>C++ định nghĩa một <em>Đối tượng có thể sao chép đơn giản</em> là đối tượng có thể được sao chép an toàn bằng cách sao chép trực tiếp biểu diễn bộ nhớ của nó (ví dụ: sử dụng <code>memcpy</code>). Điều này đảm bảo bố cục bộ nhớ hiệu quả và có thể dự đoán được. Java không trình bày trực tiếp khái niệm này, nhưng chúng ta có thể đạt được kết quả tương tự.</p>
+<p>Nếu một đối tượng chỉ bao gồm các trường nguyên thủy— <code>long</code>, <code>int</code>, <code>double</code>, v.v.—với các kích thước cố định đã biết, thì nó giống như một khối dữ liệu phẳng, liền kề. Điều này cho phép chúng ta thực hiện sao chép hàng loạt nội dung của nó cùng một lúc. Kết quả tương tự như cách C++ xử lý các kiểu có thể sao chép dễ dàng, nhưng bây giờ chúng ta đang ở trong môi trường an toàn, được thu gom rác của Java.</p>
+<h2>Các bước để đạt được một bố cục liền kề</h2>
+<ol>
+<li><strong>Chỉ giới hạn ở dạng nguyên thủy:</strong> Tránh <code>String</code>, <code>List</code>, hoặc các trường tham chiếu khác. Thay vào đó, hãy lưu trữ các mã định danh, dấu thời gian và biểu diễn văn bản ngắn dưới dạng long nguyên thủy (sử dụng các bộ chuyển đổi như <code>@ShortText</code>hoặc <code>@NanoTime</code>) để duy trì bố cục có kích thước cố định.</li>
+<li><strong>Sử dụng trường có kích thước cố định:</strong> Đảm bảo rằng tất cả các trường đều có kích thước có thể dự đoán được. Điều này không chỉ đơn giản hóa bản sao mà còn làm cho bố cục dữ liệu có thể dự đoán được.</li>
+<li><strong>Leverage Chronicle Utilities:</strong> Chronicle Bytes cung cấp các phương thức như <code>unsafeReadObject()</code>và <code>unsafeWriteObject()</code>để thực hiện các hoạt động bộ nhớ lớn. Chúng bỏ qua chi phí phản xạ hoặc vòng lặp theo từng trường.</li>
+</ol>
+<p>Bằng cách cấu trúc các đối tượng theo cách này, bạn loại bỏ chi phí CPU của việc kiểm tra nhiều lần các offset và kiểu trường. Thay vào đó, bạn xử lý toàn bộ đối tượng như một bố cục byte đã biết có thể được thu thập hoặc ghi ra chỉ trong một lần.</p>
+<p>Không phải mọi hệ thống đều có thể áp dụng đầy đủ các đối tượng có thể sao chép dễ dàng. Một số có thể cần các trường tham chiếu. Trong những trường hợp như vậy, bạn vẫn có thể cải thiện hiệu suất theo từng bước:</p>
+<ul>
+<li><strong>Phương pháp tuần tự hóa rõ ràng:</strong> Bằng cách triển khai các phương pháp tùy chỉnh <code>readMarshallable()</code>và <code>writeMarshallable()</code>phương pháp, bạn có thể tránh được chi phí phản xạ. Chỉ riêng điều này có thể giảm đáng kể độ trễ, như được thể hiện trong các điểm chuẩn bên dưới.</li>
+<li><strong>Truy cập bộ nhớ trực tiếp:</strong> Để tăng độ phức tạp ở mức vừa phải, việc đọc và ghi rõ ràng các trường theo offset của chúng bằng Chronicle Bytes giúp giảm chi phí hơn nữa. Mặc dù cần nhiều nỗ lực hơn, nhưng cách tiếp cận này thu hẹp khoảng cách đến khả năng sao chép dễ dàng.</li>
+<li><strong>Sao chép toàn bộ Trivial:</strong> Để có hiệu suất tốt nhất, hãy coi toàn bộ đối tượng như một khối bộ nhớ liền kề duy nhất. Sao chép hàng loạt ở đây là chìa khóa để đạt hiệu quả gần giống với kiểu C++.</li>
+</ul>
+<h2>Ví dụ về mã</h2>
+<p>Hãy xem xét một <code>MarketData</code>DTO có nhiều trường. Một <code>SelfDescribingMarshallable</code>lớp đơn giản có thể dựa vào phản xạ hoặc các phương thức đọc/ghi rõ ràng:</p>
+<pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">abstract</span> <span class="kwd">class</span> <span class="typ">MarketData</span> <span class="kwd">extends</span> <span class="typ">SelfDescribingMarshallable</span> <span class="pun">{</span>
     <span class="lit">@ShortText</span>
     <span class="kwd">long</span><span class="pln"> securityId</span><span class="pun">;</span>
 
@@ -15,7 +205,9 @@
 
     <span class="com">// Getters and setters omitted for clarity</span>
 <span class="pun">}</span>
-</code></pre><p><strong>Các phương pháp tiếp cận mặc định</strong> thường dựa vào phản xạ hoặc các trường tự mô tả. Mặc dù tiện lợi, nhưng đây không phải là phương pháp nhanh nhất. Mã hóa rõ ràng từng trường đọc và ghi sẽ nhanh hơn:</p><pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">public</span> <span class="kwd">final</span> <span class="kwd">class</span> <span class="typ">ExplicitMarketData</span> <span class="kwd">extends</span> <span class="typ">MarketData</span> <span class="pun">{</span>
+</code></pre>
+<p><strong>Các phương pháp tiếp cận mặc định</strong> thường dựa vào phản xạ hoặc các trường tự mô tả. Mặc dù tiện lợi, nhưng đây không phải là phương pháp nhanh nhất. Mã hóa rõ ràng từng trường đọc và ghi sẽ nhanh hơn:</p>
+<pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">public</span> <span class="kwd">final</span> <span class="kwd">class</span> <span class="typ">ExplicitMarketData</span> <span class="kwd">extends</span> <span class="typ">MarketData</span> <span class="pun">{</span>
 
     <span class="lit">@Override</span>
     <span class="kwd">public</span> <span class="kwd">void</span><span class="pln"> readMarshallable</span><span class="pun">(</span><span class="typ">BytesIn</span><span class="pln"> bytes</span><span class="pun">)</span> <span class="pun">{</span><span class="pln">
@@ -32,7 +224,9 @@
         <span class="com">// ... repeated for all fields</span>
     <span class="pun">}</span>
 <span class="pun">}</span>
-</code></pre><p>Để có chi phí thấp hơn nữa, chúng ta có thể viết một <code>DirectMarketData</code>lớp tính toán thủ công các giá trị bù trừ:</p><pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">public</span> <span class="kwd">final</span> <span class="kwd">class</span> <span class="typ">DirectMarketData</span> <span class="kwd">extends</span> <span class="typ">MarketData</span> <span class="pun">{</span>
+</code></pre>
+<p>Để có chi phí thấp hơn nữa, chúng ta có thể viết một <code>DirectMarketData</code>lớp tính toán thủ công các giá trị bù trừ:</p>
+<pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">public</span> <span class="kwd">final</span> <span class="kwd">class</span> <span class="typ">DirectMarketData</span> <span class="kwd">extends</span> <span class="typ">MarketData</span> <span class="pun">{</span>
     <span class="lit">@Override</span>
     <span class="kwd">public</span> <span class="kwd">void</span><span class="pln"> readMarshallable</span><span class="pun">(</span><span class="typ">BytesIn</span><span class="pln"> bytes</span><span class="pun">)</span> <span class="pun">{</span>
         <span class="typ">BytesStore</span><span class="pun">&lt;?,</span> <span class="pun">?&gt;</span><span class="pln"> bs </span><span class="pun">=</span> <span class="pun">((</span><span class="typ">Bytes</span><span class="pun">&lt;?&gt;)</span><span class="pln"> bytes</span><span class="pun">).</span><span class="pln">bytesStore</span><span class="pun">();</span>
@@ -56,7 +250,9 @@
         <span class="com">// ... repeated for all fields</span>
     <span class="pun">}</span>
 <span class="pun">}</span>
-</code></pre><p>Cuối cùng, một <code>TriviallyCopyableMarketData</code>lớp sử dụng Chronicle <code>unsafeReadObject()</code>và <code>unsafeWriteObject()</code>các phương thức để thực hiện một bản sao hàng loạt duy nhất:</p><pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">public</span> <span class="kwd">final</span> <span class="kwd">class</span> <span class="typ">TriviallyCopyableMarketData</span> <span class="kwd">extends</span> <span class="typ">MarketData</span> <span class="pun">{</span>
+</code></pre>
+<p>Cuối cùng, một <code>TriviallyCopyableMarketData</code>lớp sử dụng Chronicle <code>unsafeReadObject()</code>và <code>unsafeWriteObject()</code>các phương thức để thực hiện một bản sao hàng loạt duy nhất:</p>
+<pre class="prettyprint prettyprinted"><code class="language-java"><span class="kwd">public</span> <span class="kwd">final</span> <span class="kwd">class</span> <span class="typ">TriviallyCopyableMarketData</span> <span class="kwd">extends</span> <span class="typ">MarketData</span> <span class="pun">{</span>
     <span class="kwd">static</span> <span class="kwd">final</span> <span class="kwd">int</span><span class="pln"> START </span><span class="pun">=</span><span class="pln">
         triviallyCopyableStart</span><span class="pun">(</span><span class="typ">TriviallyCopyableMarketData</span><span class="pun">.</span><span class="kwd">class</span><span class="pun">);</span>
     <span class="kwd">static</span> <span class="kwd">final</span> <span class="kwd">int</span><span class="pln"> LENGTH </span><span class="pun">=</span><span class="pln">
@@ -72,13 +268,362 @@
         bytes</span><span class="pun">.</span><span class="pln">unsafeWriteObject</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">,</span><span class="pln"> START</span><span class="pun">,</span><span class="pln"> LENGTH</span><span class="pun">);</span>
     <span class="pun">}</span>
 <span class="pun">}</span>
-</code></pre><p>Các phương pháp này bỏ qua việc sao chép lặp lại từng trường. Thay vào đó, chúng sử dụng kiến ​​thức về bố cục của đối tượng để sao chép bộ nhớ cùng một lúc.</p><h2>Kết quả chuẩn mực</h2><p>Chạy điểm chuẩn trên CPU cao cấp (ví dụ: Ryzen 5950X) cho thấy những cải tiến dần dần:</p><pre><code>Benchmark                              Mode  Cnt     Score    Error  Units
+</code></pre>
+<p>Các phương pháp này bỏ qua việc sao chép lặp lại từng trường. Thay vào đó, chúng sử dụng kiến ​​thức về bố cục của đối tượng để sao chép bộ nhớ cùng một lúc.</p>
+<h2>Kết quả chuẩn mực</h2>
+<p>Chạy điểm chuẩn trên CPU cao cấp (ví dụ: Ryzen 5950X) cho thấy những cải tiến dần dần:</p>
+<pre><code>Benchmark                              Mode  Cnt     Score    Error  Units
 BenchmarkRunner.defaultWriteRead       avgt   25  1204.359 ± 72.394  ns/op
 BenchmarkRunner.defaultBytesWriteRead  avgt   25   375.479 ±  6.066  ns/op
 BenchmarkRunner.explicitWriteRead      avgt   25    45.769 ±  0.661  ns/op
 BenchmarkRunner.directWriteRead        avgt   25    27.303 ±  0.867  ns/op
 BenchmarkRunner.trivialWriteRead       avgt   25    25.568 ±  0.228  ns/op
-</code></pre><p>Ở đây, <code>trivialWriteRead</code>tốc độ sao chép bộ nhớ thô tiếp cận, cắt giảm chi phí nhiều hơn một cấp độ so với các phương pháp mặc định. <code>directWriteRead</code>Hiệu suất rất gần nhưng không bị ảnh hưởng bởi các thay đổi bố cục trong JVM.</p><h2>Những cân nhắc và lưu ý</h2><ol><li><strong>Tính ổn định của JVM:</strong> Mặc dù thường ổn định, việc dựa vào một số giả định cấp thấp có thể hơi khác nhau giữa các phiên bản hoặc bản phân phối JVM. Hãy kiểm tra cẩn thận nếu bạn cần khả năng tương thích chéo JVM.</li><li><strong>Mất tính linh hoạt:</strong> Việc hạn chế các trường thành các nguyên hàm có nghĩa là mất đi một số tiện lợi. Thông thường, bạn có thể giảm thiểu điều này bằng cách ánh xạ chuỗi hoặc liệt kê thành số nguyên hoặc chuyển đổi văn bản ngắn qua <code>@ShortText</code>, và dấu thời gian bằng <code>@NanoTime</code>.</li><li><strong>Tiến hóa lược đồ:</strong> Thay đổi cấu trúc đối tượng cần có sự phối hợp. Cả người gửi và người nhận phải tương thích. Sử dụng các chiến lược quản lý phiên bản và các bài kiểm tra tích hợp mạnh mẽ.</li><li><strong>Gần như tầm thường mà không hoàn toàn tầm thường:</strong> Nếu bạn không thể giới hạn bản thân hoàn toàn ở các nguyên hàm, hãy cân nhắc sao chép trực tiếp ít nhất các phần quan trọng về hiệu suất của dữ liệu và xử lý phần còn lại bằng các phương pháp rõ ràng.</li><li><strong>Leverage Chronicle's Tooling:</strong> Chronicle Bytes và Queue cung cấp các khối xây dựng. Mặc dù chúng làm tăng thêm độ phức tạp, nhưng hiệu suất được đền đáp xứng đáng trong các hệ thống quan trọng về độ trễ.</li></ol><h2>Những điểm chính</h2><ul><li>Việc xử lý các đối tượng như các khối trường nguyên thủy liền kề sẽ giúp giảm đáng kể chi phí tuần tự hóa.</li><li>Chuyển từ cách tiếp cận tự mô tả, phản ánh sang cách đọc/ghi trường rõ ràng mang lại lợi ích lớn.</li><li>Sử dụng bù trừ bộ nhớ trực tiếp hoặc sao chép hàng loạt còn hiệu quả hơn, đạt tốc độ tương đương với C++.</li><li>Mặc dù không tránh khỏi sự đánh đổi, khả năng sao chép đơn giản mang lại một mô hình hấp dẫn cho các hệ thống mà độ trễ và thông lượng quan trọng hơn sự tiện lợi.</li></ul><h2>Hãy tự mình thử nhé</h2><p>Tại sao không đo lường tác động lên khối lượng công việc của riêng bạn? Bộ công cụ chuẩn có sẵn tại đây:</p><p><a href="https://github.com/Vanilla-Java/Blog/blob/main/performance-optimizations/src/main/java/blog/vanillajava/triviallycopyable/BenchmarkRunner.java" class="external" target="_blank" rel="noopener noreferrer">BenchmarkRunner.java trên GitHub</a></p><p>Chạy nó với JMH để xem khả năng sao chép tầm thường có thể nâng cao hiệu suất hệ thống của bạn hay không. Thử nghiệm với các bố cục khác nhau, đo lường tác động và áp dụng phương pháp này dần dần.</p><h2>Bài viết này dựa trên...</h2><p>Bài viết này là bản cập nhật của hai bài viết của Per Minborg <a href="https://chronicle.software/how-to-get-c-speed-in-java-serialisation/" class="external" target="_blank" rel="noopener noreferrer">Cách đạt tốc độ C++ trong Java Serialization</a> và <a href="https://minborgsjavapot.blogspot.com/2022/01/" class="external" target="_blank" rel="noopener noreferrer">Bạn có biết cách nhanh nhất để Serializing một trường Java không phải là Serializing nó không?</a> Bài viết này xây dựng dựa trên các khái niệm và chuẩn mực ban đầu, cung cấp góc nhìn mới về việc đạt được các hệ thống Java có độ trễ cực thấp.</p><h2>Phần kết luận</h2><p>Java có thể không hỗ trợ các đối tượng có thể sao chép dễ dàng, nhưng chúng ta vẫn có thể đạt được tốc độ tuần tự hóa gần giống C++ bằng cách tái cấu trúc dữ liệu và sử dụng các hoạt động cấp thấp của Chronicle. Bằng cách thử nghiệm các kỹ thuật này và áp dụng chúng một cách thận trọng, các nhà phát triển có thể xây dựng các hệ thống Java có độ trễ cực thấp, tự tin xử lý khối lượng công việc thông lượng cao. Nếu bạn đã tìm kiếm lợi thế bổ sung về hiệu suất, hãy thử khả năng sao chép dễ dàng—hoặc các biến thể sao chép trực tiếp của nó. Nó có thể chính là chìa khóa để mở ra các cấp độ hiệu quả mới.</p></div><footer class="content__footer"><div class="content__last-updated">This article was updated on <time datetime="2024-12-29T14:17">Thg 12 29, 2024</time></div><div class="content__share"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html" class="js-share facebook tltp tltp--top" aria-label="Facebook" rel="nofollow noopener noreferrer"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#facebook"/></svg> <span>Facebook</span> </a><a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html&amp;media=undefined&amp;description=C%C3%A1c%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20c%C3%B3%20th%E1%BB%83%20sao%20ch%C3%A9p%20d%E1%BB%85%20d%C3%A0ng%20trong%20Java" class="js-share pinterest tltp tltp--top" aria-label="Pinterest" rel="nofollow noopener noreferrer"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#pinterest"/></svg> <span>Pinterest</span> </a><a href="https://mix.com/add?url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html" class="js-share mix tltp tltp--top" aria-label="Share with Mix" rel="nofollow noopener noreferrer"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#mix"/></svg> <span>Mix</span> </a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html" class="js-share linkedin tltp tltp--top" aria-label="Share with LinkedIn" rel="nofollow noopener noreferrer"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#linkedin"/></svg> <span>LinkedIn</span> </a><a href="https://buffer.com/add?text=C%C3%A1c%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20c%C3%B3%20th%E1%BB%83%20sao%20ch%C3%A9p%20d%E1%BB%85%20d%C3%A0ng%20trong%20Java&amp;url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html" class="js-share buffer tltp tltp--top" aria-label="Buffer" rel="nofollow noopener noreferrer"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#buffer"/></svg> <span>Buffer</span> </a><a href="https://api.whatsapp.com/send?text=C%C3%A1c%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20c%C3%B3%20th%E1%BB%83%20sao%20ch%C3%A9p%20d%E1%BB%85%20d%C3%A0ng%20trong%20Java https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html" class="js-share whatsapp tltp tltp--top" title="Share with LinkedIn" rel="nofollow noopener noreferrer"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#whatsapp"/></svg> <span>WhatsApp</span></a></div></footer></div></article><div class="content__section post__related"><div class="main__inner"><h3 class="content__section__title">Related post</h3><div class="post__related__wrap"><article class="c-card"><div class="c-card__meta"><div class="c-card__author"><img src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" loading="lazy" height="725" width="736" alt="đức chung ( chung choáy )"> <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/">đức chung ( chung choáy )</a></div><time datetime="2024-12-26T22:40">Thg 12 26, 2024 </time><a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="c-card-tag">Java</a></div><header class="c-card__header"><h2 class="c-card__title"><a href="https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html">Điều gì có thể khiến mã Java chạy nhanh hơn rồi chậm hơn?</a></h2><p>Người ta đều biết rằng JVM tối ưu hóa mã trong quá&hellip;</p></header></article><article class="c-card"><div class="c-card__meta"><div class="c-card__author"><img src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" loading="lazy" height="725" width="736" alt="đức chung ( chung choáy )"> <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/">đức chung ( chung choáy )</a></div><time datetime="2024-12-26T22:38">Thg 12 26, 2024 </time><a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="c-card-tag">Java</a></div><header class="c-card__header"><h2 class="c-card__title"><a href="https://chung142003.github.io/laptrinhmang/giai-ma-kich-thuoc-doi-tuong-java-tieu-de-nho-gon-oops-nen-va-hon-the-nua.html">Giải mã kích thước đối tượng Java: Tiêu đề nhỏ gọn, Oops nén và hơn thế nữa</a></h2><p>Giới thiệu Đo kích thước của đối tượng trong Java không phải&hellip;</p></header></article></div></div></div><div class="content__section content__comments"><div class="main__inner"><div class="comments"><div class="comments-wrapper"><h2>Comments</h2><div class="fb-comments" data-href="https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html" data-width="100%" data-colorscheme="light" data-lazy="true" data-order-by="reverse_time" data-numposts="5"></div><noscript>Please enable JS to use the comments form.</noscript></div></div><div id="fb-root"></div><script type="text/javascript" async defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0">nonce="n4mWU9e7"</script></div></div></main><div class="right-bar"><div class="right-bar__inner"><div class="sidebar"><section class="box authors"><h3 class="box__title">Authors</h3><ul class="authors__cotainer"><li class="authors__item"><a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/code-hay-ngu/" class="authors__image"><img src="https://chung142003.github.io/laptrinhmang/media/website/chill-guy.jpg" loading="lazy" alt="code hay ngủ" height="420" width="420" class="authors__img"></a><div><a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/code-hay-ngu/" class="authors__title">code hay ngủ</a> <span class="authors__meta">Post: 8</span></div></li><li class="authors__item"><a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/" class="authors__image"><img src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" loading="lazy" alt="đức chung ( chung choáy )" height="725" width="736" class="authors__img"></a><div><a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/" class="authors__title">đức chung ( chung choáy )</a> <span class="authors__meta">Post: 10</span></div></li></ul></section><section class="box tags"><h3 class="box__title">Recommended Topics</h3><ul class="tags__list"><li class="tags__item"><a href="https://chung142003.github.io/laptrinhmang/tags/fact-coder/" class="btn btn--gray">Fact coder <sup>(6)</sup></a></li><li class="tags__item"><a href="https://chung142003.github.io/laptrinhmang/tags/fun-fact/" class="btn btn--gray">Fun Fact <sup>(3)</sup></a></li><li class="tags__item"><a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="btn btn--gray">Java <sup>(7)</sup></a></li><li class="tags__item"><a href="https://chung142003.github.io/laptrinhmang/tags/javascript/" class="btn btn--gray">JavaScript <sup>(3)</sup></a></li><li class="tags__item"><a href="https://chung142003.github.io/laptrinhmang/tags/kiem-tien/" class="btn btn--gray">kiếm tiền <sup>(2)</sup></a></li><li class="tags__item"><a href="https://chung142003.github.io/laptrinhmang/tags/profile/" class="btn btn--gray">Profile <sup>(0)</sup></a></li></ul></section><section class="box newsletter"><h3 class="box__title">Subscribe to Mono</h3><p class="newsletter__desc">Sign up to receive email updates and to hear what's going on with us!</p>bạn có thể đọc thêm ở bách khoa page</section><div class="box follow"><a href="https://www.facebook.com/chung.truong.614308/" class="tltp tltp--top" aria-label="Facebook"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#facebook"/></svg> <span>Facebook</span> </a><a href="https://www.instagram.com/truong_doan_duc_chung/" class="tltp tltp--top" aria-label="Instagram"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#instagram"/></svg> <span>Instagram</span> </a><a href="https://www.youtube.com/c/Tr%E1%BB%B1cTi%E1%BA%BFpGameVN" class="tltp tltp--top" aria-label="Youtube"><svg><use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#youtube"/></svg> <span>Youtube</span></a></div><div class="box copyright">Powered chung choáy - careful when you want stolen</div></div></div></div></div><script defer="defer" src="https://chung142003.github.io/laptrinhmang/assets/js/scripts.min.js?v=b2d91bcadbf5db401b76eb5bb3092eb7"></script><script>var images = document.querySelectorAll('img[loading]');
+</code></pre>
+<p>Ở đây, <code>trivialWriteRead</code>tốc độ sao chép bộ nhớ thô tiếp cận, cắt giảm chi phí nhiều hơn một cấp độ so với các phương pháp mặc định. <code>directWriteRead</code>Hiệu suất rất gần nhưng không bị ảnh hưởng bởi các thay đổi bố cục trong JVM.</p>
+<h2>Những cân nhắc và lưu ý</h2>
+<ol>
+<li><strong>Tính ổn định của JVM:</strong> Mặc dù thường ổn định, việc dựa vào một số giả định cấp thấp có thể hơi khác nhau giữa các phiên bản hoặc bản phân phối JVM. Hãy kiểm tra cẩn thận nếu bạn cần khả năng tương thích chéo JVM.</li>
+<li><strong>Mất tính linh hoạt:</strong> Việc hạn chế các trường thành các nguyên hàm có nghĩa là mất đi một số tiện lợi. Thông thường, bạn có thể giảm thiểu điều này bằng cách ánh xạ chuỗi hoặc liệt kê thành số nguyên hoặc chuyển đổi văn bản ngắn qua <code>@ShortText</code>, và dấu thời gian bằng <code>@NanoTime</code>.</li>
+<li><strong>Tiến hóa lược đồ:</strong> Thay đổi cấu trúc đối tượng cần có sự phối hợp. Cả người gửi và người nhận phải tương thích. Sử dụng các chiến lược quản lý phiên bản và các bài kiểm tra tích hợp mạnh mẽ.</li>
+<li><strong>Gần như tầm thường mà không hoàn toàn tầm thường:</strong> Nếu bạn không thể giới hạn bản thân hoàn toàn ở các nguyên hàm, hãy cân nhắc sao chép trực tiếp ít nhất các phần quan trọng về hiệu suất của dữ liệu và xử lý phần còn lại bằng các phương pháp rõ ràng.</li>
+<li><strong>Leverage Chronicle's Tooling:</strong> Chronicle Bytes và Queue cung cấp các khối xây dựng. Mặc dù chúng làm tăng thêm độ phức tạp, nhưng hiệu suất được đền đáp xứng đáng trong các hệ thống quan trọng về độ trễ.</li>
+</ol>
+<h2>Những điểm chính</h2>
+<ul>
+<li>Việc xử lý các đối tượng như các khối trường nguyên thủy liền kề sẽ giúp giảm đáng kể chi phí tuần tự hóa.</li>
+<li>Chuyển từ cách tiếp cận tự mô tả, phản ánh sang cách đọc/ghi trường rõ ràng mang lại lợi ích lớn.</li>
+<li>Sử dụng bù trừ bộ nhớ trực tiếp hoặc sao chép hàng loạt còn hiệu quả hơn, đạt tốc độ tương đương với C++.</li>
+<li>Mặc dù không tránh khỏi sự đánh đổi, khả năng sao chép đơn giản mang lại một mô hình hấp dẫn cho các hệ thống mà độ trễ và thông lượng quan trọng hơn sự tiện lợi.</li>
+</ul>
+<h2>Hãy tự mình thử nhé</h2>
+<p>Tại sao không đo lường tác động lên khối lượng công việc của riêng bạn? Bộ công cụ chuẩn có sẵn tại đây:</p>
+<p><a href="https://github.com/Vanilla-Java/Blog/blob/main/performance-optimizations/src/main/java/blog/vanillajava/triviallycopyable/BenchmarkRunner.java" class="external" target="_blank" rel="noopener noreferrer">BenchmarkRunner.java trên GitHub</a></p>
+<p>Chạy nó với JMH để xem khả năng sao chép tầm thường có thể nâng cao hiệu suất hệ thống của bạn hay không. Thử nghiệm với các bố cục khác nhau, đo lường tác động và áp dụng phương pháp này dần dần.</p>
+<h2>Bài viết này dựa trên...</h2>
+<p>Bài viết này là bản cập nhật của hai bài viết của Per Minborg <a href="https://chronicle.software/how-to-get-c-speed-in-java-serialisation/" class="external" target="_blank" rel="noopener noreferrer">Cách đạt tốc độ C++ trong Java Serialization</a> và <a href="https://minborgsjavapot.blogspot.com/2022/01/" class="external" target="_blank" rel="noopener noreferrer">Bạn có biết cách nhanh nhất để Serializing một trường Java không phải là Serializing nó không?</a> Bài viết này xây dựng dựa trên các khái niệm và chuẩn mực ban đầu, cung cấp góc nhìn mới về việc đạt được các hệ thống Java có độ trễ cực thấp.</p>
+<h2>Phần kết luận</h2>
+<p>Java có thể không hỗ trợ các đối tượng có thể sao chép dễ dàng, nhưng chúng ta vẫn có thể đạt được tốc độ tuần tự hóa gần giống C++ bằng cách tái cấu trúc dữ liệu và sử dụng các hoạt động cấp thấp của Chronicle. Bằng cách thử nghiệm các kỹ thuật này và áp dụng chúng một cách thận trọng, các nhà phát triển có thể xây dựng các hệ thống Java có độ trễ cực thấp, tự tin xử lý khối lượng công việc thông lượng cao. Nếu bạn đã tìm kiếm lợi thế bổ sung về hiệu suất, hãy thử khả năng sao chép dễ dàng—hoặc các biến thể sao chép trực tiếp của nó. Nó có thể chính là chìa khóa để mở ra các cấp độ hiệu quả mới.</p>
+            </div>     
+
+               <footer class="content__footer">
+
+                     <div class="content__last-updated">
+                        This article was updated on
+                        <time datetime="2024-12-29T14:59">
+                              Thg 12 29, 2024
+                        </time>
+                     </div>
+
+                        <div class="content__share">
+                              <a
+                                 href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"
+                                 class="js-share facebook tltp tltp--top"
+                                 aria-label="Facebook"
+                                 rel="nofollow noopener noreferrer">
+                                 <svg>
+                                    <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#facebook"/>
+                                 </svg>
+                                 <span>Facebook</span>
+                              </a>
+                           
+                           
+                              <a
+                                 href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html&amp;media=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fmedia%2Fposts%2F22%2Fcopyjava.png&amp;description=C%C3%A1c%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20c%C3%B3%20th%E1%BB%83%20sao%20ch%C3%A9p%20d%E1%BB%85%20d%C3%A0ng%20trong%20Java"
+                                 class="js-share pinterest tltp tltp--top"
+                                 aria-label="Pinterest"
+                                 rel="nofollow noopener noreferrer">
+                                 <svg>
+                                    <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#pinterest"/>
+                                 </svg>
+                                 <span>Pinterest</span>
+                              </a>
+                           
+                              <a
+                                 href="https://mix.com/add?url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"
+                                 class="js-share mix tltp tltp--top"
+                                 aria-label="Share with Mix"
+                                 rel="nofollow noopener noreferrer">
+                                 <svg>
+                                    <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#mix"/>
+                                 </svg>
+                                 <span>Mix</span>
+                              </a>
+                           
+                              <a
+                                 href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"
+                                 class="js-share linkedin tltp tltp--top"
+                                 aria-label="Share with LinkedIn"
+                                 rel="nofollow noopener noreferrer">
+                                 <svg>
+                                    <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#linkedin"/>
+                                 </svg>
+                                 <span>LinkedIn</span>
+                              </a>
+                           
+                              <a
+                                 href="https://buffer.com/add?text=C%C3%A1c%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20c%C3%B3%20th%E1%BB%83%20sao%20ch%C3%A9p%20d%E1%BB%85%20d%C3%A0ng%20trong%20Java&amp;url=https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"
+                                 class="js-share buffer tltp tltp--top"
+                                 aria-label="Buffer"
+                                 rel="nofollow noopener noreferrer">
+                                 <svg>
+                                    <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#buffer"/>
+                                 </svg>
+                                 <span>Buffer</span>
+                              </a>
+                           
+                              <a
+                                 href="https://api.whatsapp.com/send?text=C%C3%A1c%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20c%C3%B3%20th%E1%BB%83%20sao%20ch%C3%A9p%20d%E1%BB%85%20d%C3%A0ng%20trong%20Java https%3A%2F%2Fchung142003.github.io%2Flaptrinhmang%2Fcac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"
+                                 class="js-share whatsapp tltp tltp--top"
+                                 title="Share with LinkedIn"
+                                 rel="nofollow noopener noreferrer">
+                                 <svg>
+                                    <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#whatsapp"/>
+                                 </svg>
+                                 <span>WhatsApp</span>
+                              </a>
+                        </div>
+
+               </footer>
+
+         </div>
+      </article>
+
+            <div class="content__section post__related">
+               <div class="main__inner">
+                  <h3 class="content__section__title">Related post</h3>
+                  <div class="post__related__wrap">
+                        <article class="c-card">
+                           <div class="c-card__meta">
+                              <div class="c-card__author">
+                                       <img
+                                          src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" 
+                                           loading="lazy"
+                                          height="725"
+                                          width="736" 
+                                          alt="đức chung ( chung choáy )">
+                                    <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/">đức chung ( chung choáy )</a>
+                              </div>
+
+                              <time datetime="2024-12-26T22:40">
+                                    Thg 12 26, 2024
+                              </time>
+
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="c-card-tag">Java</a>
+                           </div>
+            
+                                 <a href="https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html" class="c-card__image">
+                                    <img
+                                       src="https://chung142003.github.io/laptrinhmang/media/posts/23/javafster.jpg"
+                                          srcset="https://chung142003.github.io/laptrinhmang/media/posts/23/responsive/javafster-xs.jpg 320w ,https://chung142003.github.io/laptrinhmang/media/posts/23/responsive/javafster-sm.jpg 480w" sizes="(min-width: 700px) 200px, (min-width: 480px) 160px, calc(100vw - 50px)"
+                                        loading="lazy"
+                                       height="168"
+                                       width="299"
+                                       alt="">
+                                 </a>
+
+                           <header class="c-card__header">
+                              <h2 class="c-card__title">
+                                 <a href="https://chung142003.github.io/laptrinhmang/dieu-gi-co-the-khien-ma-java-chay-nhanh-hon-roi-cham-hon.html">Điều gì có thể khiến mã Java chạy nhanh hơn rồi chậm hơn?</a>
+                              </h2>
+                                 <p>Người ta đều biết rằng JVM tối ưu hóa mã trong quá&hellip;</p>
+                           </header>
+                        </article>
+                        <article class="c-card">
+                           <div class="c-card__meta">
+                              <div class="c-card__author">
+                                       <img
+                                          src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" 
+                                           loading="lazy"
+                                          height="725"
+                                          width="736" 
+                                          alt="đức chung ( chung choáy )">
+                                    <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/">đức chung ( chung choáy )</a>
+                              </div>
+
+                              <time datetime="2024-12-26T22:38">
+                                    Thg 12 26, 2024
+                              </time>
+
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="c-card-tag">Java</a>
+                           </div>
+            
+
+                           <header class="c-card__header">
+                              <h2 class="c-card__title">
+                                 <a href="https://chung142003.github.io/laptrinhmang/giai-ma-kich-thuoc-doi-tuong-java-tieu-de-nho-gon-oops-nen-va-hon-the-nua.html">Giải mã kích thước đối tượng Java: Tiêu đề nhỏ gọn, Oops nén và hơn thế nữa</a>
+                              </h2>
+                                 <p>Giới thiệu Đo kích thước của đối tượng trong Java không phải&hellip;</p>
+                           </header>
+                        </article>
+                  </div>
+               </div>
+            </div>
+
+         <div class="content__section content__comments">
+				 <div class="main__inner">
+               <div class="comments">
+	            <div class="comments-wrapper">
+	               	
+			<h2>
+		        Comments
+		    </h2>
+	    
+	               	
+					<div 
+						class="fb-comments" 
+						data-href="https://chung142003.github.io/laptrinhmang/cac-doi-tuong-co-the-sao-chep-de-dang-trong-java.html"
+						data-width="100%"
+						data-colorscheme="light"
+						data-lazy="true"
+						data-order-by="reverse_time"
+						data-numposts="5"></div>
+					<noscript>Please enable JS to use the comments form.</noscript>
+					
+				</div>
+			</div>
+			
+				<div id="fb-root"></div>
+				<script 
+					type="text/javascript"
+					async 
+					defer 
+					crossorigin="anonymous" 
+					src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0">
+					nonce="n4mWU9e7"
+				</script>
+             </div>
+			</div>
+
+
+
+</main>
+   <div class="right-bar">
+      <div class="right-bar__inner">
+         <div class="sidebar">
+
+               <section class="box authors">
+                  <h3 class="box__title">Authors</h3>
+                  <ul class="authors__cotainer">
+                           <li class="authors__item">
+                                    <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/code-hay-ngu/" class="authors__image">                            
+                                       <img 
+                                          src="https://chung142003.github.io/laptrinhmang/media/website/chill-guy.jpg" 
+                                           loading="lazy" 
+                                          alt="code hay ngủ" 
+                                          height="420" 
+                                          width="420" 
+                                          class="authors__img">                           
+                                    </a>
+                              <div>
+                                 <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/code-hay-ngu/" class="authors__title">code hay ngủ</a>
+                                    <span class="authors__meta">Post:  8</span>
+                              </div>
+                           </li>
+                           <li class="authors__item">
+                                    <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/" class="authors__image">                            
+                                       <img 
+                                          src="https://chung142003.github.io/laptrinhmang/media/website/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" 
+                                           loading="lazy" 
+                                          alt="đức chung ( chung choáy )" 
+                                          height="725" 
+                                          width="736" 
+                                          class="authors__img">                           
+                                    </a>
+                              <div>
+                                 <a href="https://chung142003.github.io/laptrinhmang/truong-doan-duc-chung/duc-chung-chung-choay/" class="authors__title">đức chung ( chung choáy )</a>
+                                    <span class="authors__meta">Post:  10</span>
+                              </div>
+                           </li>
+                  </ul>
+               </section>
+
+                  <section class="box tags">
+                     <h3 class="box__title">Recommended Topics</h3>
+                     <ul class="tags__list">
+                              <li class="tags__item">
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/fact-coder/" class="btn btn--gray">Fact coder
+                                       <sup>(6)</sup>
+                                 </a>
+                              </li>
+                              <li class="tags__item">
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/fun-fact/" class="btn btn--gray">Fun Fact
+                                       <sup>(3)</sup>
+                                 </a>
+                              </li>
+                              <li class="tags__item">
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/testtag/" class="btn btn--gray">Java
+                                       <sup>(7)</sup>
+                                 </a>
+                              </li>
+                              <li class="tags__item">
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/javascript/" class="btn btn--gray">JavaScript
+                                       <sup>(3)</sup>
+                                 </a>
+                              </li>
+                              <li class="tags__item">
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/kiem-tien/" class="btn btn--gray">kiếm tiền
+                                       <sup>(2)</sup>
+                                 </a>
+                              </li>
+                              <li class="tags__item">
+                                 <a href="https://chung142003.github.io/laptrinhmang/tags/profile/" class="btn btn--gray">Profile
+                                       <sup>(0)</sup>
+                                 </a>
+                              </li>
+                     </ul>
+                  </section>
+
+
+               <section class="box newsletter">
+                  <h3 class="box__title">Subscribe to Mono</h3>
+                  <p class="newsletter__desc">Sign up to receive email updates and to hear what's going on with us!</p>
+                  bạn có thể đọc thêm ở bách khoa page
+
+               </section>
+         
+               <div class="box follow">
+                     <a
+                        href="https://www.facebook.com/chung.truong.614308/"
+                        class="tltp tltp--top"
+                        aria-label="Facebook">
+                        <svg>
+                           <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#facebook"/>
+                        </svg>
+                        <span>Facebook</span>
+                     </a>
+                     <a
+                        href="https://www.instagram.com/truong_doan_duc_chung/"
+                        class="tltp tltp--top"
+                        aria-label="Instagram">
+                        <svg>
+                           <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#instagram"/>
+                        </svg>
+                        <span>Instagram</span>
+                     </a>
+                     <a 
+                        href="https://www.youtube.com/c/Tr%E1%BB%B1cTi%E1%BA%BFpGameVN" 
+                        class="tltp tltp--top" 
+                        aria-label="Youtube">
+                        <svg>
+                           <use xlink:href="https://chung142003.github.io/laptrinhmang/assets/svg/svg-map.svg#youtube"/>
+                        </svg>
+                        <span>Youtube</span>
+                     </a>
+               </div>
+
+               <div class="box copyright">
+                  Powered chung choáy - careful when you want stolen
+               </div>
+
+         </div>
+      </div>
+   </div>
+</div>
+
+<script defer src="https://chung142003.github.io/laptrinhmang/assets/js/scripts.min.js?v=b2d91bcadbf5db401b76eb5bb3092eb7"></script>
+
+    <script>        
+        var images = document.querySelectorAll('img[loading]');
         for (var i = 0; i < images.length; i++) {
             if (images[i].complete) {
                 images[i].classList.add('is-loaded');
@@ -87,10 +632,24 @@ BenchmarkRunner.trivialWriteRead       avgt   25    25.568 ±  0.228  ns/op
                     this.classList.add('is-loaded');
                 }, false);
             }
-        }</script><script src="https://chung142003.github.io/laptrinhmang/media/plugins/docSearch/docsearch.min.js"></script><script type="text/javascript">docsearch({
+        }
+    </script>
+
+
+
+
+		   <script src="https://chung142003.github.io/laptrinhmang/media/plugins/docSearch/docsearch.min.js"></script>
+			<script type="text/javascript">
+			docsearch({
 				container: '#docsearch',
 				appId: '',
 				indexName: '',
 				apiKey: '',
 				debug: false
-			});</script></body></html>
+			});
+			</script>
+
+			
+		
+</body>
+</html>
