@@ -3,7 +3,7 @@
     <title>Java &amp; JavaScript hub</title>
     <link href="https://chung142003.github.io/laptrinhmang/feed.xml" rel="self" />
     <link href="https://chung142003.github.io/laptrinhmang" />
-    <updated>2024-12-29T21:46:05+07:00</updated>
+    <updated>2024-12-29T22:06:19+07:00</updated>
     <author>
         <name>đức chung ( chung choáy )</name>
     </author>
@@ -16,11 +16,17 @@
         </author>
         <link href="https://chung142003.github.io/laptrinhmang/about-me.html"/>
         <id>https://chung142003.github.io/laptrinhmang/about-me.html</id>
+        <media:content url="https://chung142003.github.io/laptrinhmang/media/posts/24/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" medium="image" />
             <category term="Profile"/>
 
         <updated>2024-12-29T21:46:05+07:00</updated>
             <summary></summary>
-        <content></content>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chung142003.github.io/laptrinhmang/media/posts/24/49c55a21-d276-46b1-bc10-e3f5bf259e39.jpg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://chung142003.github.io/laptrinhmang/media/posts/24/Screenshot-2024-12-29-220432.png" alt="" width="1122" height="639" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-xs.png 320w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-sm.png 480w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-md.png 768w ,https://chung142003.github.io/laptrinhmang/media/posts/24/responsive/Screenshot-2024-12-29-220432-xl.png 1024w"></figure>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Điều gì có thể khiến mã Java chạy nhanh hơn rồi chậm hơn?</title>
